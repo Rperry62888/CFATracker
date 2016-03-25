@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="CFAEntities">
+    <EntitySetMapping Name="FileType">
+      <EntityTypeMapping TypeName="Model.FileType">
+        <MappingFragment StoreEntitySet="FileType">
+          <ScalarProperty Name="FileTypeID" ColumnName="FileTypeID" />
+          <ScalarProperty Name="TypeDescription" ColumnName="TypeDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Group">
+      <EntityTypeMapping TypeName="Model.Group">
+        <MappingFragment StoreEntitySet="Group">
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hour">
+      <EntityTypeMapping TypeName="Model.Hour">
+        <MappingFragment StoreEntitySet="Hour">
+          <ScalarProperty Name="HourID" ColumnName="HourID" />
+          <ScalarProperty Name="HourDate" ColumnName="HourDate" />
+          <ScalarProperty Name="HourAmount" ColumnName="HourAmount" />
+          <ScalarProperty Name="HourNotes" ColumnName="HourNotes" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="HourBaseID" ColumnName="HourBaseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HourBase">
+      <EntityTypeMapping TypeName="Model.HourBase">
+        <MappingFragment StoreEntitySet="HourBase">
+          <ScalarProperty Name="HourBaseID" ColumnName="HourBaseID" />
+          <ScalarProperty Name="HourBaseDate" ColumnName="HourBaseDate" />
+          <ScalarProperty Name="HourBaseAmount" ColumnName="HourBaseAmount" />
+          <ScalarProperty Name="HourBaseNotes" ColumnName="HourBaseNotes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Note">
+      <EntityTypeMapping TypeName="Model.Note">
+        <MappingFragment StoreEntitySet="Note">
+          <ScalarProperty Name="NoteID" ColumnName="NoteID" />
+          <ScalarProperty Name="Note1" ColumnName="Note" />
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Processing">
+      <EntityTypeMapping TypeName="Model.Processing">
+        <MappingFragment StoreEntitySet="Processing">
+          <ScalarProperty Name="ProcID" ColumnName="ProcID" />
+          <ScalarProperty Name="InFilingCabinet" ColumnName="InFilingCabinet" />
+          <ScalarProperty Name="ProcInQueue" ColumnName="ProcInQueue" />
+          <ScalarProperty Name="ProcToUser" ColumnName="ProcToUser" />
+          <ScalarProperty Name="ProcUserComplete" ColumnName="ProcUserComplete" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="QueueID" ColumnName="QueueID" />
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Queue">
+      <EntityTypeMapping TypeName="Model.Queue">
+        <MappingFragment StoreEntitySet="Queue">
+          <ScalarProperty Name="QueueID" ColumnName="QueueID" />
+          <ScalarProperty Name="QueueDescription" ColumnName="QueueDescription" />
+          <ScalarProperty Name="QueueNextQueue" ColumnName="QueueNextQueue" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="QueueOrderID" ColumnName="QueueOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueueOrder">
+      <EntityTypeMapping TypeName="Model.QueueOrder">
+        <MappingFragment StoreEntitySet="QueueOrder">
+          <ScalarProperty Name="QueueOrderID" ColumnName="QueueOrderID" />
+          <ScalarProperty Name="QueueOrderDescription" ColumnName="QueueOrderDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueuePriority">
+      <EntityTypeMapping TypeName="Model.QueuePriority">
+        <MappingFragment StoreEntitySet="QueuePriority">
+          <ScalarProperty Name="QueueID" ColumnName="QueueID" />
+          <ScalarProperty Name="FileTypeID" ColumnName="FileTypeID" />
+          <ScalarProperty Name="QPOrder" ColumnName="QPOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Record">
+      <EntityTypeMapping TypeName="Model.Record">
+        <MappingFragment StoreEntitySet="Record">
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="ProcPriority" ColumnName="ProcPriority" />
+          <ScalarProperty Name="DOD" ColumnName="DOD" />
+          <ScalarProperty Name="LDA" ColumnName="LDA" />
+          <ScalarProperty Name="FileTypeID" ColumnName="FileTypeID" />
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentFile">
+      <EntityTypeMapping TypeName="Model.StudentFile">
+        <MappingFragment StoreEntitySet="StudentFile">
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="FileSSN" ColumnName="FileSSN" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="Model.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GlobalSettings">
+      <EntityTypeMapping TypeName="Model.GlobalSettings">
+        <MappingFragment StoreEntitySet="GlobalSettings">
+          <ScalarProperty Name="GSID" ColumnName="GSID" />
+          <ScalarProperty Name="QueueNumber" ColumnName="QueueNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="QueueTeam" TypeName="Model.QueueTeam" StoreEntitySet="QueueTeam">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Username" ColumnName="Username" />
+      </EndProperty>
+      <EndProperty Name="Queue">
+        <ScalarProperty Name="QueueID" ColumnName="QueueID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionName="Model.Store.UserFilingCabinet" FunctionImportName="UserFilingCabinet">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.UserFilingCabinet_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="Model.Store.UserQueue" FunctionImportName="UserQueue">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.UserQueue_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_CompleteProcessing" FunctionName="Model.Store.sp_CompleteProcessing" />
+    <FunctionImportMapping FunctionImportName="sp_GetNextFile" FunctionName="Model.Store.sp_GetNextFile" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUser" FunctionName="Model.Store.sp_InsertUser" />
+    <FunctionImportMapping FunctionImportName="GetQueues" FunctionName="Model.Store.GetQueues">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetQueues_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,413 @@
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\csc.exe
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Collections.Immutable.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Reflection.Metadata.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\vbc.exe
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe.config
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll.config
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.pdb
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Web.Infrastructure.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Owin.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\WebGrease.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.pdb
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.dll
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.pdb
+e:\users\my documents\visual studio 2015\Projects\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\csc.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\vbc.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll.config
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\WebGrease.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.pdb
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\csc.exe
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\vbc.exe
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll.config
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.pdb
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Owin.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\WebGrease.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.pdb
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.dll
+C:\Users\RPerr\Google Drive\CFA\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.pdb
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.csprojResolveAssemblyReference.cache
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.pdb
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\csc.exe
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\vbc.exe
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll.config
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.pdb
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Owin.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\WebGrease.dll
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.pdb
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\RPerr\Source\Repos\CFATracker\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\obj\Debug\CFAStudentTracker.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\obj\Debug\CFAStudentTracker.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\obj\Debug\CFAStudentTracker.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\csc.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\vbc.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\CFAStudentTracker.dll.config
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\CFAStudentTracker.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\CFAStudentTracker.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\EntityFramework.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Razor.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\WebGrease.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.Razor.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\EntityFramework.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker (1)\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\csc.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\vbc.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll.config
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\CFAStudentTracker.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Owin.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\WebGrease.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.Razor.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.dll
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.pdb
+C:\Users\Ryan\Google Drive\CFA\CFAStudentTracker1\CFAStudentTracker\CFAStudentTracker\obj\Debug\CFAStudentTracker.csprojResolveAssemblyReference.cache

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CFAStudentTracker.Models.Queue>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.QueueDescription)
+        </th>
+        <th>
+            @Html.DisplayName("Number Files In Queue")
+        </th>
+        <th>
+            @Html.DisplayName("Number Users In Queue")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Group.GroupName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QueueOrder.QueueOrderDescription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.QueueDescription)
+        </td>
+        @*<td>
+            @Html.Display(item.GetUsersInQueue())
+        </td>
+        <td>
+            @Html.Display(item.GetUsersInQueue())
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Group.GroupName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QueueOrder.QueueOrderDescription)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.QueueID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.QueueID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.QueueID })
+        </td>
+    </tr>
+}
+
+</table>

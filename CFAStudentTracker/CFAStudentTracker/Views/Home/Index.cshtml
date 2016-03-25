@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Student Tracker</h1>
+    <p class="lead">Search for student</p>
+    <p class="text-info">@Html.TextBox("Text")</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Daily", "Index", "Home")</h2>
+            <ul class="btn-group-vertical">
+                <li class="btn btn-default">@Html.ActionLink("Pending Files", "Index", "Home")</li>
+                <li class="btn btn-default">@Html.ActionLink("Filing Cabinet", "About", "Home")</li>
+                <li class="btn btn-default">@Html.ActionLink("Completed Files", "Contact", "Home")</li>
+            </ul>
+    </div>
+    <div class="col-md-4">
+        <h2 class="h2">@Html.ActionLink("Reports", "Index", "Home")</h2>
+        <ul class="btn-group-vertical">
+            <li class="btn btn-default">@Html.ActionLink("Attendance", "Index", "Home")</li>
+            <li class="btn btn-default">@Html.ActionLink("About", "About", "Home")</li>
+            <li class="btn btn-default">@Html.ActionLink("Contact", "Contact", "Home")</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Management", "Index", "Home")</h2>
+        <ul class="btn-group-vertical">
+            <li class="btn btn-default">@Html.ActionLink("Queue Management", "Index", "Home")</li>
+            <li class="btn btn-default">@Html.ActionLink("Reject Processing", "About", "Home")</li>
+            <li class="btn btn-default">@Html.ActionLink("Error Processing", "Contact", "Home")</li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <ComplexType Name="UserFilingCabinet_Result">
+    <Property Name="ID" Type="Int64" />
+    <Property Name="SSN" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </ComplexType>
+  <ComplexType Name="UserQueue_Result">
+    <Property Name="ID" Type="Int64" />
+    <Property Name="SSN" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </ComplexType>
+  <EntityType Name="FileType">
+    <Key>
+      <PropertyRef Name="FileTypeID" />
+    </Key>
+    <Property Name="FileTypeID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeDescription" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="QueuePriority" Relationship="Self.FK_QPType" FromRole="FileType" ToRole="QueuePriority" />
+    <NavigationProperty Name="Record" Relationship="Self.FK_RecordType" FromRole="FileType" ToRole="Record" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="GroupID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Queue" Relationship="Self.FK_QueueGroup" FromRole="Group" ToRole="Queue" />
+  </EntityType>
+  <EntityType Name="Hour">
+    <Key>
+      <PropertyRef Name="HourID" />
+    </Key>
+    <Property Name="HourID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HourDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="HourAmount" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="HourNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HourBaseID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="HourBase" Relationship="Self.FK_HourBase" FromRole="Hour" ToRole="HourBase" />
+    <NavigationProperty Name="User" Relationship="Self.FK_HourUser" FromRole="Hour" ToRole="User" />
+  </EntityType>
+  <EntityType Name="HourBase">
+    <Key>
+      <PropertyRef Name="HourBaseID" />
+    </Key>
+    <Property Name="HourBaseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HourBaseDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="HourBaseAmount" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="HourBaseNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Hour" Relationship="Self.FK_HourBase" FromRole="HourBase" ToRole="Hour" />
+  </EntityType>
+  <EntityType Name="Note">
+    <Key>
+      <PropertyRef Name="NoteID" />
+    </Key>
+    <Property Name="NoteID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Note1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RecordID" Type="Int64" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Record" Relationship="Self.FK_NoteRecord" FromRole="Note" ToRole="Record" />
+    <NavigationProperty Name="User" Relationship="Self.FK_NoteUser" FromRole="Note" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Processing">
+    <Key>
+      <PropertyRef Name="ProcID" />
+    </Key>
+    <Property Name="ProcID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InFilingCabinet" Type="Boolean" Nullable="false" />
+    <Property Name="ProcInQueue" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ProcToUser" Type="DateTime" Precision="0" />
+    <Property Name="ProcUserComplete" Type="DateTime" Precision="0" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="QueueID" Type="Int16" Nullable="false" />
+    <Property Name="RecordID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Queue" Relationship="Self.FK_ProcessingQueue" FromRole="Processing" ToRole="Queue" />
+    <NavigationProperty Name="Record" Relationship="Self.FK_ProcessingRecord" FromRole="Processing" ToRole="Record" />
+    <NavigationProperty Name="User" Relationship="Self.FK_ProcessingUser" FromRole="Processing" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Queue">
+    <Key>
+      <PropertyRef Name="QueueID" />
+    </Key>
+    <Property Name="QueueID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QueueDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="QueueNextQueue" Type="Int16" />
+    <Property Name="GroupID" Type="Int16" />
+    <Property Name="QueueOrderID" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_QueueGroup" FromRole="Queue" ToRole="Group" />
+    <NavigationProperty Name="Processing" Relationship="Self.FK_ProcessingQueue" FromRole="Queue" ToRole="Processing" />
+    <NavigationProperty Name="QueuePriority" Relationship="Self.FK_QPQueue" FromRole="Queue" ToRole="QueuePriority" />
+    <NavigationProperty Name="Queue1" Relationship="Self.FK_QueueNext" FromRole="Queue" ToRole="Queue1" />
+    <NavigationProperty Name="Queue2" Relationship="Self.FK_QueueNext" FromRole="Queue1" ToRole="Queue" />
+    <NavigationProperty Name="QueueOrder" Relationship="Self.FK_QueueOrder" FromRole="Queue" ToRole="QueueOrder" />
+    <NavigationProperty Name="User" Relationship="Self.QueueTeam" FromRole="Queue" ToRole="User" />
+  </EntityType>
+  <EntityType Name="QueueOrder">
+    <Key>
+      <PropertyRef Name="QueueOrderID" />
+    </Key>
+    <Property Name="QueueOrderID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QueueOrderDescription" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Queue" Relationship="Self.FK_QueueOrder" FromRole="QueueOrder" ToRole="Queue" />
+  </EntityType>
+  <EntityType Name="QueuePriority">
+    <Key>
+      <PropertyRef Name="QueueID" />
+      <PropertyRef Name="FileTypeID" />
+    </Key>
+    <Property Name="QueueID" Type="Int16" Nullable="false" />
+    <Property Name="FileTypeID" Type="Int16" Nullable="false" />
+    <Property Name="QPOrder" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="FileType" Relationship="Self.FK_QPType" FromRole="QueuePriority" ToRole="FileType" />
+    <NavigationProperty Name="Queue" Relationship="Self.FK_QPQueue" FromRole="QueuePriority" ToRole="Queue" />
+  </EntityType>
+  <EntityType Name="Record">
+    <Key>
+      <PropertyRef Name="RecordID" />
+    </Key>
+    <Property Name="RecordID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcPriority" Type="Boolean" Nullable="false" />
+    <Property Name="DOD" Type="DateTime" Precision="0" />
+    <Property Name="LDA" Type="DateTime" Precision="0" />
+    <Property Name="FileTypeID" Type="Int16" Nullable="false" />
+    <Property Name="FileID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FileType" Relationship="Self.FK_RecordType" FromRole="Record" ToRole="FileType" />
+    <NavigationProperty Name="Note" Relationship="Self.FK_NoteRecord" FromRole="Record" ToRole="Note" />
+    <NavigationProperty Name="Processing" Relationship="Self.FK_ProcessingRecord" FromRole="Record" ToRole="Processing" />
+    <NavigationProperty Name="StudentFile" Relationship="Self.FK_RecordFile" FromRole="Record" ToRole="StudentFile" />
+  </EntityType>
+  <EntityType Name="StudentFile">
+    <Key>
+      <PropertyRef Name="FileID" />
+    </Key>
+    <Property Name="FileID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FileSSN" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FileName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Record" Relationship="Self.FK_RecordFile" FromRole="StudentFile" ToRole="Record" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Hour" Relationship="Self.FK_HourUser" FromRole="User" ToRole="Hour" />
+    <NavigationProperty Name="Note" Relationship="Self.FK_NoteUser" FromRole="User" ToRole="Note" />
+    <NavigationProperty Name="Processing" Relationship="Self.FK_ProcessingUser" FromRole="User" ToRole="Processing" />
+    <NavigationProperty Name="Queue" Relationship="Self.QueueTeam" FromRole="User" ToRole="Queue" />
+  </EntityType>
+  <EntityType Name="GlobalSettings">
+    <Key>
+      <PropertyRef Name="GSID" />
+      <PropertyRef Name="QueueNumber" />
+    </Key>
+    <Property Name="GSID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QueueNumber" Type="Int16" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_QPType">
+    <End Role="FileType" Type="Self.FileType" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="QueuePriority" Type="Self.QueuePriority" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FileType">
+        <PropertyRef Name="FileTypeID" />
+      </Principal>
+      <Dependent Role="QueuePriority">
+        <PropertyRef Name="FileTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecordType">
+    <End Role="FileType" Type="Self.FileType" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Record" Type="Self.Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FileType">
+        <PropertyRef Name="FileTypeID" />
+      </Principal>
+      <Dependent Role="Record">
+        <PropertyRef Name="FileTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QueueGroup">
+    <End Role="Group" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="Queue" Type="Self.Queue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="Queue">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HourBase">
+    <End Role="HourBase" Type="Self.HourBase" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Hour" Type="Self.Hour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HourBase">
+        <PropertyRef Name="HourBaseID" />
+      </Principal>
+      <Dependent Role="Hour">
+        <PropertyRef Name="HourBaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HourUser">
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Hour" Type="Self.Hour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Username" />
+      </Principal>
+      <Dependent Role="Hour">
+        <PropertyRef Name="Username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NoteRecord">
+    <End Role="Record" Type="Self.Record" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Note" Type="Self.Note" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Record">
+        <PropertyRef Name="RecordID" />
+      </Principal>
+      <Dependent Role="Note">
+        <PropertyRef Name="RecordID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NoteUser">
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Note" Type="Self.Note" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Username" />
+      </Principal>
+      <Dependent Role="Note">
+        <PropertyRef Name="Username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProcessingQueue">
+    <End Role="Queue" Type="Self.Queue" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Processing" Type="Self.Processing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Queue">
+        <PropertyRef Name="QueueID" />
+      </Principal>
+      <Dependent Role="Processing">
+        <PropertyRef Name="QueueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProcessingRecord">
+    <End Role="Record" Type="Self.Record" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Processing" Type="Self.Processing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Record">
+        <PropertyRef Name="RecordID" />
+      </Principal>
+      <Dependent Role="Processing">
+        <PropertyRef Name="RecordID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProcessingUser">
+    <End Role="User" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Processing" Type="Self.Processing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Username" />
+      </Principal>
+      <Dependent Role="Processing">
+        <PropertyRef Name="Username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QPQueue">
+    <End Role="Queue" Type="Self.Queue" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="QueuePriority" Type="Self.QueuePriority" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Queue">
+        <PropertyRef Name="QueueID" />
+      </Principal>
+      <Dependent Role="QueuePriority">
+        <PropertyRef Name="QueueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QueueNext">
+    <End Role="Queue" Type="Self.Queue" Multiplicity="0..1" />
+    <End Role="Queue1" Type="Self.Queue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Queue">
+        <PropertyRef Name="QueueID" />
+      </Principal>
+      <Dependent Role="Queue1">
+        <PropertyRef Name="QueueNextQueue" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QueueOrder">
+    <End Role="QueueOrder" Type="Self.QueueOrder" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Queue" Type="Self.Queue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QueueOrder">
+        <PropertyRef Name="QueueOrderID" />
+      </Principal>
+      <Dependent Role="Queue">
+        <PropertyRef Name="QueueOrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecordFile">
+    <End Role="StudentFile" Type="Self.StudentFile" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Record" Type="Self.Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudentFile">
+        <PropertyRef Name="FileID" />
+      </Principal>
+      <Dependent Role="Record">
+        <PropertyRef Name="FileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="QueueTeam">
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <End Role="Queue" Type="Self.Queue" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="CFAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FileType" EntityType="Self.FileType" />
+    <EntitySet Name="Group" EntityType="Self.Group" />
+    <EntitySet Name="Hour" EntityType="Self.Hour" />
+    <EntitySet Name="HourBase" EntityType="Self.HourBase" />
+    <EntitySet Name="Note" EntityType="Self.Note" />
+    <EntitySet Name="Processing" EntityType="Self.Processing" />
+    <EntitySet Name="Queue" EntityType="Self.Queue" />
+    <EntitySet Name="QueueOrder" EntityType="Self.QueueOrder" />
+    <EntitySet Name="QueuePriority" EntityType="Self.QueuePriority" />
+    <EntitySet Name="Record" EntityType="Self.Record" />
+    <EntitySet Name="StudentFile" EntityType="Self.StudentFile" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="GlobalSettings" EntityType="Self.GlobalSettings" />
+    <AssociationSet Name="FK_QPType" Association="Self.FK_QPType">
+      <End Role="FileType" EntitySet="FileType" />
+      <End Role="QueuePriority" EntitySet="QueuePriority" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecordType" Association="Self.FK_RecordType">
+      <End Role="FileType" EntitySet="FileType" />
+      <End Role="Record" EntitySet="Record" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QueueGroup" Association="Self.FK_QueueGroup">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Queue" EntitySet="Queue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HourBase" Association="Self.FK_HourBase">
+      <End Role="HourBase" EntitySet="HourBase" />
+      <End Role="Hour" EntitySet="Hour" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HourUser" Association="Self.FK_HourUser">
+      <End Role="User" EntitySet="User" />
+      <End Role="Hour" EntitySet="Hour" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NoteRecord" Association="Self.FK_NoteRecord">
+      <End Role="Record" EntitySet="Record" />
+      <End Role="Note" EntitySet="Note" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NoteUser" Association="Self.FK_NoteUser">
+      <End Role="User" EntitySet="User" />
+      <End Role="Note" EntitySet="Note" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProcessingQueue" Association="Self.FK_ProcessingQueue">
+      <End Role="Queue" EntitySet="Queue" />
+      <End Role="Processing" EntitySet="Processing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProcessingRecord" Association="Self.FK_ProcessingRecord">
+      <End Role="Record" EntitySet="Record" />
+      <End Role="Processing" EntitySet="Processing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProcessingUser" Association="Self.FK_ProcessingUser">
+      <End Role="User" EntitySet="User" />
+      <End Role="Processing" EntitySet="Processing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QPQueue" Association="Self.FK_QPQueue">
+      <End Role="Queue" EntitySet="Queue" />
+      <End Role="QueuePriority" EntitySet="QueuePriority" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QueueNext" Association="Self.FK_QueueNext">
+      <End Role="Queue" EntitySet="Queue" />
+      <End Role="Queue1" EntitySet="Queue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QueueOrder" Association="Self.FK_QueueOrder">
+      <End Role="QueueOrder" EntitySet="QueueOrder" />
+      <End Role="Queue" EntitySet="Queue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecordFile" Association="Self.FK_RecordFile">
+      <End Role="StudentFile" EntitySet="StudentFile" />
+      <End Role="Record" EntitySet="Record" />
+    </AssociationSet>
+    <AssociationSet Name="QueueTeam" Association="Self.QueueTeam">
+      <End Role="User" EntitySet="User" />
+      <End Role="Queue" EntitySet="Queue" />
+    </AssociationSet>
+    <FunctionImport Name="UserFilingCabinet" IsComposable="true" ReturnType="Collection(Model.UserFilingCabinet_Result)">
+      <Parameter Name="InsUsername" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UserQueue" IsComposable="true" ReturnType="Collection(Model.UserQueue_Result)">
+      <Parameter Name="InsUsername" Mode="In" Type="String" />
+      <Parameter Name="InsQueueID" Mode="In" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="sp_CompleteProcessing">
+      <Parameter Name="InsProcID" Mode="In" Type="Int64" />
+      <Parameter Name="CurQueueID" Mode="In" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetNextFile">
+      <Parameter Name="InsUsername" Mode="In" Type="String" />
+      <Parameter Name="QueueID" Mode="In" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertUser">
+      <Parameter Name="InsUsername" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetQueues" IsComposable="true" ReturnType="Collection(Model.GetQueues_Result)">
+      <Parameter Name="InsUsername" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetQueues_Result">
+    <Property Type="Int16" Name="ID" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>
