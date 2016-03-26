@@ -34,12 +34,12 @@
         <td>
             @Html.DisplayFor(modelItem => item.QueueDescription)
         </td>
-        @*<td>
-            @Html.Display(item.GetUsersInQueue())
+        <td>
+            @item.GetTotalFiles().ToString()
         </td>
         <td>
-            @Html.Display(item.GetUsersInQueue())
-        </td>*@
+            @item.GetTotalUsers().ToString()
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Group.GroupName)
         </td>
@@ -48,7 +48,7 @@
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.QueueID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.QueueID }) |
+            @Html.ActionLink("Manage", "Details", new { id=item.QueueID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.QueueID })
         </td>
     </tr>

@@ -448,9 +448,19 @@
     <FunctionImport Name="GetQueues" IsComposable="true" ReturnType="Collection(Model.GetQueues_Result)">
       <Parameter Name="InsUsername" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="FilesInQueue" IsComposable="true" ReturnType="Collection(Model.FilesInQueue_Result)">
+      <Parameter Name="InsQueue" Mode="In" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="UsersInQueue" IsComposable="true" ReturnType="Collection(String)">
+      <Parameter Name="InsQueue" Mode="In" Type="Int16" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="GetQueues_Result">
     <Property Type="Int16" Name="ID" Nullable="true" />
     <Property Type="String" Name="Description" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="FilesInQueue_Result">
+    <Property Type="Int16" Name="fileTypeID" Nullable="true" />
+    <Property Type="Int32" Name="fileAmount" Nullable="true" />
   </ComplexType>
 </Schema>

@@ -175,6 +175,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MembershipController.cs" />
+    <Compile Include="Controllers\ProcessingsController.cs" />
     <Compile Include="Controllers\QueuesController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\StudentFileController.cs" />
@@ -212,6 +213,9 @@
     </Compile>
     <Compile Include="Models\C__MigrationHistory.cs">
       <DependentUpon>MembershipModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FilesInQueue_Result.cs">
+      <DependentUpon>CFA.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\FileType.cs">
       <DependentUpon>CFA.tt</DependentUpon>
@@ -1168,6 +1172,11 @@
     <Content Include="Views\FileTypes\Details.cshtml" />
     <Content Include="Views\FileTypes\Edit.cshtml" />
     <Content Include="Views\FileTypes\Index.cshtml" />
+    <Content Include="Views\Processings\Create.cshtml" />
+    <Content Include="Views\Processings\Delete.cshtml" />
+    <Content Include="Views\Processings\Details.cshtml" />
+    <Content Include="Views\Processings\Edit.cshtml" />
+    <Content Include="Views\Processings\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

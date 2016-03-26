@@ -1,0 +1,74 @@
+﻿@model CFAStudentTracker.Models.Processing
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Processing</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.InFilingCabinet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InFilingCabinet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProcInQueue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProcInQueue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProcToUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProcToUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProcUserComplete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProcUserComplete)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Queue.QueueDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Queue.QueueDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Record.RecordID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Record.RecordID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Username)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProcID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

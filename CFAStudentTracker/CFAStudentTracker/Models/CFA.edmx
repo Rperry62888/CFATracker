@@ -13,7 +13,7 @@
           <Property Name="TypeDescription" Type="varchar" MaxLength="20" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view 'C:\USERS\RYAN\GOOGLE DRIVE\CFA\CFASTUDENTTRACKER1\CFASTUDENTTRACKER\CFASTUDENTTRACKER\APP_DATA\CFA.MDF.dbo.GlobalSettings' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'C:\USERS\RYAN\SOURCE\REPOS\CFATRACKER\CFASTUDENTTRACKER\CFASTUDENTTRACKER\APP_DATA\CFA.MDF.dbo.GlobalSettings' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="GlobalSettings">
           <Key>
             <PropertyRef Name="GSID" />
@@ -350,8 +350,16 @@ warning 6002: The table/view 'C:\USERS\RYAN\GOOGLE DRIVE\CFA\CFASTUDENTTRACKER1\
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Function Name="FilesInQueue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
-          <Parameter Name="InsQueue" Type="int" Mode="In" />
+        <Function Name="FilesInQueue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="InsQueue" Type="smallint" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="fileTypeID" Type="smallint" />
+                <Property Name="fileAmount" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
         </Function>
         <Function Name="GetQueues" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="InsUsername" Type="varchar" Mode="In" />
@@ -405,8 +413,15 @@ warning 6002: The table/view 'C:\USERS\RYAN\GOOGLE DRIVE\CFA\CFASTUDENTTRACKER1\
         <Function Name="UserQueueNumber" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="tinyint">
           <Parameter Name="InsUsername" Type="varchar" Mode="In" />
         </Function>
-        <Function Name="UsersInQueue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
-          <Parameter Name="InsQueue" Type="int" Mode="In" />
+        <Function Name="UsersInQueue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="InsQueue" Type="smallint" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="Username" Type="varchar" MaxLength="50" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
         </Function>
         <EntityContainer Name="ModelStoreContainer">
           <EntitySet Name="FileType" EntityType="Self.FileType" Schema="dbo" store:Type="Tables" />
@@ -945,10 +960,20 @@ warning 6002: The table/view 'C:\USERS\RYAN\GOOGLE DRIVE\CFA\CFASTUDENTTRACKER1\
           <FunctionImport Name="GetQueues" IsComposable="true" ReturnType="Collection(Model.GetQueues_Result)">
           <Parameter Name="InsUsername" Mode="In" Type="String" />
           </FunctionImport>
+          <FunctionImport Name="FilesInQueue" IsComposable="true" ReturnType="Collection(Model.FilesInQueue_Result)">
+          <Parameter Name="InsQueue" Mode="In" Type="Int16" />
+          </FunctionImport>
+          <FunctionImport Name="UsersInQueue" IsComposable="true" ReturnType="Collection(String)">
+            <Parameter Name="InsQueue" Mode="In" Type="Int16" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="GetQueues_Result">
           <Property Type="Int16" Name="ID" Nullable="true" />
           <Property Type="String" Name="Description" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="FilesInQueue_Result">
+          <Property Type="Int16" Name="fileTypeID" Nullable="true" />
+          <Property Type="Int32" Name="fileAmount" Nullable="true" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -1121,6 +1146,15 @@ warning 6002: The table/view 'C:\USERS\RYAN\GOOGLE DRIVE\CFA\CFASTUDENTTRACKER1\
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="FilesInQueue" FunctionName="Model.Store.FilesInQueue">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Model.FilesInQueue_Result">
+                <ScalarProperty Name="fileTypeID" ColumnName="fileTypeID" />
+                <ScalarProperty Name="fileAmount" ColumnName="fileAmount" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="UsersInQueue" FunctionName="Model.Store.UsersInQueue" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

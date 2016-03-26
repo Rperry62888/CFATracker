@@ -109,5 +109,25 @@ namespace CFAStudentTracker.Models
     
             return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<GetQueues_Result>("[CFAEntities].[GetQueues](@InsUsername)", insUsernameParameter);
         }
+    
+        [DbFunction("CFAEntities", "FilesInQueue")]
+        public virtual IQueryable<FilesInQueue_Result> FilesInQueue(Nullable<short> insQueue)
+        {
+            var insQueueParameter = insQueue.HasValue ?
+                new ObjectParameter("InsQueue", insQueue) :
+                new ObjectParameter("InsQueue", typeof(short));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<FilesInQueue_Result>("[CFAEntities].[FilesInQueue](@InsQueue)", insQueueParameter);
+        }
+    
+        [DbFunction("CFAEntities", "UsersInQueue")]
+        public virtual IQueryable<string> UsersInQueue(Nullable<short> insQueue)
+        {
+            var insQueueParameter = insQueue.HasValue ?
+                new ObjectParameter("InsQueue", insQueue) :
+                new ObjectParameter("InsQueue", typeof(short));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<string>("[CFAEntities].[UsersInQueue](@InsQueue)", insQueueParameter);
+        }
     }
 }

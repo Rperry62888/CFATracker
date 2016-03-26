@@ -21,8 +21,40 @@ namespace CFAStudentTracker.Models
             this.QueuePriority = new HashSet<QueuePriority>();
             this.Queue1 = new HashSet<Queue>();
             this.User = new HashSet<User>();
+            usersInQueue = new List<string>();
         }
-    
+        public IEnumerable<FilesInQueue_Result> filesInQueue { get; set; }
+        public IEnumerable<string> usersInQueue { get; set; }
+        internal void SetupQueueData()
+        {
+            CFAEntities db = new CFAEntities();
+            filesInQueue = db.FilesInQueue(QueueID);
+            usersInQueue = db.UsersInQueue(QueueID);
+        }
+
+        public int GetTotalFiles()
+        {
+            int r = 0;
+            foreach (var item in filesInQueue)
+            {
+                if (item.fileAmount != null)
+                {
+                    r += (int)item.fileAmount;
+                }
+            }
+            return r;
+        }
+
+        public int GetTotalUsers()
+        {
+            int r = 0;
+            foreach (var item in usersInQueue)
+            {
+                r++;
+            }
+            return r;
+        }
+
         public short QueueID { get; set; }
         public string QueueDescription { get; set; }
         public Nullable<short> QueueNextQueue { get; set; }

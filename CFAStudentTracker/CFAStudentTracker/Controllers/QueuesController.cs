@@ -19,7 +19,10 @@ namespace CFAStudentTracker.Controllers
         public async Task<ActionResult> Index()
         {
             var queue = db.Queue.Include(q => q.Group).Include(q => q.Queue2).Include(q => q.QueueOrder);
-            var i = db.Database.ExecuteSqlCommandAsync("EXEC UsersInQueue 1");
+            foreach (var item in queue)
+            {
+                item.SetupQueueData();
+            }
             return View(await queue.ToListAsync());
         }
 
@@ -37,6 +40,7 @@ namespace CFAStudentTracker.Controllers
             }
             return View(queue);
         }
+
 
         // GET: Queues/Create
         public ActionResult Create()

@@ -26,5 +26,24 @@ namespace CFAStudentTracker.Models
         public virtual Queue Queue { get; set; }
         public virtual Record Record { get; set; }
         public virtual User User { get; set; }
+
+        public string status { get; set; }
+        
+        public void SetStatus()
+        {
+            if (ProcUserComplete != null)
+            {
+                status = "Complete";
+            } else if (ProcToUser != null)
+            {
+                status = "Processing";
+            } else if (InFilingCabinet == true)
+            {
+                status = "In Filing Cabinet";
+            } else
+            {
+                status = "In Queue";
+            }
+        }
     }
 }

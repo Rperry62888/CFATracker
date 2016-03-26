@@ -166,5 +166,14 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FilesInQueue" FunctionName="Model.Store.FilesInQueue">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.FilesInQueue_Result">
+          <ScalarProperty Name="fileTypeID" ColumnName="fileTypeID" />
+          <ScalarProperty Name="fileAmount" ColumnName="fileAmount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UsersInQueue" FunctionName="Model.Store.UsersInQueue" />
   </EntityContainerMapping>
 </Mapping>
